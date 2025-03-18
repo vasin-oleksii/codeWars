@@ -45,6 +45,8 @@ function moveZeros(arr) {
   const nonZeros = arr.filter((value) => value !== 0);
   return [...nonZeros, ...zeros];
 }
-console.log(moveZeros(10));
-
 //! https://www.codewars.com/kata/52597aa56021e91c93000cb0/train/javascript
+
+function formatDuration(seconds) {
+  // Complete this function
+}
