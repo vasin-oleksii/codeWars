@@ -7,3 +7,9 @@ def descending_order(n)
 end #7kuy
 
 puts descending_order(312)
+
+def solution(str, ending)
+  str.end_with?(ending)
+end
+
+puts solution('abc', 'bc')
