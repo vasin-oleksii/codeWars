@@ -31,3 +31,11 @@ def likes(names)
 end
 
 puts likes(['Alex', 'Jacob', 'Mark', 'Max'])
+
+
+
+def filter_list(l)
+  l.select {|el| el.class == Integer}
+end
+
+puts filter_list([1,2,'a','b']) #kyu7
